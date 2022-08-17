@@ -286,7 +286,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="uah-o0-LWd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5IC-xT-tEC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images (1)" translatesAutoresizingMaskIntoConstraints="NO" id="nq2-wB-bNc">
@@ -309,10 +309,96 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vdq-dE-Kfu">
-                                <rect key="frame" x="0.0" y="194" width="414" height="702"/>
+                                <rect key="frame" x="0.0" y="194" width="414" height="1453"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vo2-Mi-nd8">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vo2-Mi-nd8">
+                                        <rect key="frame" x="-8" y="8" width="414" height="1500"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ytn-dG-4Dc">
+                                                <rect key="frame" x="26" y="86" width="184" height="940"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Fiction books: 
+-Percy Jackson
+-The Kane Chronicles 
+-Where the  -Crawdads Sing 
+-Cinder
+-The Art of Racing in the Rain (movie is great too) 
+-The Hunger Games (movies are good too)
+Non-Fiction books: 
+-Sea Biscuit 
+-Anne Frank 
+-A Brief History of Time 
+</string>
+                                                <color key="textColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="    Books:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pcz-eS-pfQ">
+                                                <rect key="frame" x="33" y="26" width="170" height="52"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="  Movies:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ruE-xW-eIM">
+                                                <rect key="frame" x="237" y="26" width="160" height="52"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2JV-5I-bJ3">
+                                                <rect key="frame" x="226" y="87" width="183" height="939.5"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Movie recommendations:
+Superhero movies:
+-Batman
+-The Dark Knight Rises
+Fantasy: 
+-Alice in Wonderland
+-Ghostbusters
+-Jungle Cruise
+-Beetlejuice
+Horror: 
+-A Quiet Place
+-It
+-The Meg 
+
+</string>
+                                                <color key="textColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RA9-fS-FJn">
+                                                <rect key="frame" x="45" y="1126" width="348" height="193"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <string key="text">- Demon Slayer
+- Jujutsu Kaisen
+- Bungou Stray Dogs
+- Hunter X Hunter
+- Black Butler
+</string>
+                                                <color key="textColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="   Anime: " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ePt-ao-zRs">
+                                                <rect key="frame" x="140" y="1056" width="158" height="46"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="dbG-lF-ig7"/>
@@ -339,11 +425,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aso-FL-hIm"/>
-                    <size key="freeformSize" width="414" height="896"/>
+                    <size key="freeformSize" width="414" height="1647"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NAd-gt-I7d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1690" y="838"/>
+            <point key="canvasLocation" x="1689.8550724637682" y="1089.1741071428571"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.36355125999999999" green="0.3705644011" blue="0.34091888520000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
