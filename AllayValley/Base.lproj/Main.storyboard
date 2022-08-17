@@ -38,9 +38,7 @@
                                     <color key="baseForegroundColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="9zu-n9-e5h" kind="popover" popoverAnchorView="vef-so-Fge" id="lN0-gR-tym">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="9zu-n9-e5h" kind="push" id="lN0-gR-tym"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGS-7X-qfy">
@@ -54,9 +52,7 @@
                                     <color key="baseForegroundColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="lcb-GE-MgU" kind="popover" popoverAnchorView="rGS-7X-qfy" id="OJY-ea-nNs">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="lcb-GE-MgU" kind="push" id="OJY-ea-nNs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJV-xD-K2O">
@@ -70,9 +66,7 @@
                                     <color key="baseForegroundColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="kYu-zU-rdw" kind="popover" popoverAnchorView="OJV-xD-K2O" id="Rip-Q6-SvZ">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="kYu-zU-rdw" kind="push" id="Rip-Q6-SvZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyP-jQ-s8Q">
@@ -86,9 +80,7 @@
                                     <color key="baseForegroundColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="egB-yS-vZU" kind="popover" popoverAnchorView="wyP-jQ-s8Q" id="oLn-KT-vLP">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="egB-yS-vZU" kind="push" id="oLn-KT-vLP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9V-WK-MUc">
@@ -102,9 +94,7 @@
                                     <color key="baseForegroundColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="BUj-hR-UQv" kind="popover" popoverAnchorView="q9V-WK-MUc" id="8pN-cg-PBa">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="BUj-hR-UQv" kind="push" id="8pN-cg-PBa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -131,6 +121,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfe-62-6hg">
+                                <rect key="frame" x="174" y="188" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0te-yX-464"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -139,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="48t-FC-YFm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1080" y="66"/>
+            <point key="canvasLocation" x="1079.7101449275362" y="65.625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Lfy-L4-bQg">
