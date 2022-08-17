@@ -23,10 +23,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vef-so-Fge">
                                 <rect key="frame" x="218" y="236" width="150" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.56267129149999995" green="0.57234543559999995" blue="0.31244586759999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.88150376080000004" green="0.85706997370000004" blue="0.81089483409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Quotes">
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.88150376080000004" green="0.85706997370000004" blue="0.81089483409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
                                     <color key="baseForegroundColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -37,10 +39,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGS-7X-qfy">
                                 <rect key="frame" x="35" y="422" width="150" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.56267129149999995" green="0.57234543559999995" blue="0.31244586759999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.88150376080000004" green="0.85706997370000004" blue="0.81089483409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Games">
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.88150376080000004" green="0.85706997370000004" blue="0.81089483409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
                                     <color key="baseForegroundColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -51,10 +55,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJV-xD-K2O">
                                 <rect key="frame" x="108" y="606" width="198" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.56267129149999995" green="0.57234543559999995" blue="0.31244586759999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.88150376080000004" green="0.85706997370000004" blue="0.81089483409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Settings">
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.88150376080000004" green="0.85706997370000004" blue="0.81089483409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
                                     <color key="baseForegroundColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -65,24 +71,28 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyP-jQ-s8Q">
                                 <rect key="frame" x="218" y="422" width="150" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.56267129149999995" green="0.57234543559999995" blue="0.31244586759999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.88150376080000004" green="0.85706997370000004" blue="0.81089483409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Book / Movie / Anime recommendations">
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.88150376080000004" green="0.85706997370000004" blue="0.81089483409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="17"/>
                                     <color key="baseForegroundColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="egB-yS-vZU" kind="push" id="oLn-KT-vLP"/>
+                                    <segue destination="w7p-3N-AKe" kind="show" id="qaW-c3-NPk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9V-WK-MUc">
                                 <rect key="frame" x="35" y="236" width="150" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.56267129149999995" green="0.57234543559999995" blue="0.31244586759999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.88150376080000004" green="0.85706997370000004" blue="0.81089483409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Music / Sounds">
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.88150376080000004" green="0.85706997370000004" blue="0.81089483409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="25"/>
                                     <color key="baseForegroundColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -223,61 +233,61 @@
             <point key="canvasLocation" x="954" y="838"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="IoL-Jd-tQO">
+        <scene sceneID="ibT-UO-j9X">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="egB-yS-vZU" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9Xc-VN-aMQ">
+                <viewController modalPresentationStyle="fullScreen" id="w7p-3N-AKe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4CC-x1-TR9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images (1)" translatesAutoresizingMaskIntoConstraints="NO" id="hn6-GG-YBj">
-                                <rect key="frame" x="-181" y="-336" width="776" height="1569"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images (1)" translatesAutoresizingMaskIntoConstraints="NO" id="YMN-kD-Cjq">
+                                <rect key="frame" x="-181" y="-337" width="776" height="1569"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zFd-8f-5UO">
-                                <rect key="frame" x="0.0" y="44" width="414" height="150"/>
-                            </scrollView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Book / Movie / Anime recommendations" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lqx-Ct-O8b">
-                                <rect key="frame" x="36" y="44" width="240" height="282.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WpO-tm-m3o">
-                                <rect key="frame" x="0.0" y="44" width="414" height="150"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dTL-b7-ui2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HoR-uu-YOD">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Books / Movies / Animes recommendation" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dsl-Ok-uiy">
+                                                <rect key="frame" x="34" y="52" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="fCV-vi-a0t"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="8L3-V7-sbJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="HoR-uu-YOD" secondAttribute="bottom" id="DiL-vw-3YA"/>
+                                    <constraint firstAttribute="trailing" secondItem="HoR-uu-YOD" secondAttribute="trailing" id="K2M-Tq-B4w"/>
+                                    <constraint firstItem="HoR-uu-YOD" firstAttribute="top" secondItem="dTL-b7-ui2" secondAttribute="top" id="TlZ-sZ-Rfm"/>
+                                    <constraint firstItem="HoR-uu-YOD" firstAttribute="leading" secondItem="dTL-b7-ui2" secondAttribute="leading" id="Xc1-7H-izP"/>
                                 </constraints>
-                            </view>
+                            </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="rXb-Wm-O3A"/>
+                        <viewLayoutGuide key="safeArea" id="djV-SE-Apn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zFd-8f-5UO" firstAttribute="top" secondItem="rXb-Wm-O3A" secondAttribute="top" id="1Ck-0j-qRh"/>
-                            <constraint firstItem="zFd-8f-5UO" firstAttribute="trailing" secondItem="rXb-Wm-O3A" secondAttribute="trailing" id="5Ly-l8-ScJ"/>
-                            <constraint firstAttribute="bottom" secondItem="zFd-8f-5UO" secondAttribute="bottom" id="9BY-tk-s1C"/>
-                            <constraint firstItem="WpO-tm-m3o" firstAttribute="trailing" secondItem="rXb-Wm-O3A" secondAttribute="trailing" id="KcE-R7-ge9"/>
-                            <constraint firstAttribute="bottom" secondItem="WpO-tm-m3o" secondAttribute="bottom" id="Ooc-h7-9ki"/>
-                            <constraint firstItem="WpO-tm-m3o" firstAttribute="leading" secondItem="rXb-Wm-O3A" secondAttribute="leading" id="Q4c-0I-OwX"/>
-                            <constraint firstItem="WpO-tm-m3o" firstAttribute="leading" secondItem="rXb-Wm-O3A" secondAttribute="leading" id="Tda-Al-u4H"/>
-                            <constraint firstItem="WpO-tm-m3o" firstAttribute="trailing" secondItem="rXb-Wm-O3A" secondAttribute="trailing" id="V8u-8j-SyQ"/>
-                            <constraint firstItem="zFd-8f-5UO" firstAttribute="leading" secondItem="rXb-Wm-O3A" secondAttribute="leading" id="WDg-WG-4t9"/>
-                            <constraint firstAttribute="bottom" secondItem="WpO-tm-m3o" secondAttribute="bottom" id="fze-AE-DLN"/>
-                            <constraint firstItem="WpO-tm-m3o" firstAttribute="top" secondItem="rXb-Wm-O3A" secondAttribute="top" id="lef-fQ-eyt"/>
-                            <constraint firstItem="WpO-tm-m3o" firstAttribute="leading" secondItem="rXb-Wm-O3A" secondAttribute="leading" id="rpz-SE-O3W"/>
-                            <constraint firstAttribute="bottom" secondItem="WpO-tm-m3o" secondAttribute="bottom" id="vPN-To-bUA"/>
-                            <constraint firstItem="WpO-tm-m3o" firstAttribute="top" secondItem="rXb-Wm-O3A" secondAttribute="top" id="x8Z-QC-jg6"/>
-                            <constraint firstItem="WpO-tm-m3o" firstAttribute="trailing" secondItem="rXb-Wm-O3A" secondAttribute="trailing" id="xLP-Vj-oBa"/>
-                            <constraint firstItem="WpO-tm-m3o" firstAttribute="top" secondItem="rXb-Wm-O3A" secondAttribute="top" id="ztP-Zc-3N9"/>
+                            <constraint firstAttribute="bottom" secondItem="dTL-b7-ui2" secondAttribute="bottom" id="6iA-w1-jc0"/>
+                            <constraint firstItem="HoR-uu-YOD" firstAttribute="height" secondItem="4CC-x1-TR9" secondAttribute="height" multiplier="1.67411" id="SRq-Ni-ml6"/>
+                            <constraint firstItem="dTL-b7-ui2" firstAttribute="leading" secondItem="djV-SE-Apn" secondAttribute="leading" id="c5S-h6-qAX"/>
+                            <constraint firstItem="HoR-uu-YOD" firstAttribute="width" secondItem="4CC-x1-TR9" secondAttribute="width" id="dup-a7-06a"/>
+                            <constraint firstItem="dTL-b7-ui2" firstAttribute="trailing" secondItem="djV-SE-Apn" secondAttribute="trailing" id="hwj-AR-uev"/>
+                            <constraint firstItem="dTL-b7-ui2" firstAttribute="top" secondItem="4CC-x1-TR9" secondAttribute="top" id="rZB-Ko-KxC"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="dJM-xe-KF6"/>
+                    <navigationItem key="navigationItem" id="Rt9-L6-EeK"/>
+                    <size key="freeformSize" width="414" height="896"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="teq-oZ-yl9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qiS-rz-neu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1676.8115942028987" y="837.72321428571422"/>
+            <point key="canvasLocation" x="1694" y="838"/>
         </scene>
     </scenes>
     <resources>
