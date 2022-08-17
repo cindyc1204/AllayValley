@@ -31,7 +31,7 @@
                                     <fontDescription key="titleFontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="w7p-3N-AKe" kind="show" id="R5p-UE-ekb"/>
+                                    <segue destination="uah-o0-LWd" kind="show" id="zf9-qq-0vg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUJ-hn-mQa">
@@ -245,9 +245,35 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CjF-RG-pBt">
+                                <rect key="frame" x="0.0" y="199" width="414" height="697"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pAT-uI-BC1">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="ZGs-sI-99t"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pAT-uI-BC1" firstAttribute="top" secondItem="CjF-RG-pBt" secondAttribute="top" id="MRH-Sm-bgU"/>
+                                    <constraint firstItem="pAT-uI-BC1" firstAttribute="leading" secondItem="CjF-RG-pBt" secondAttribute="leading" id="XuF-0H-AEt"/>
+                                    <constraint firstAttribute="bottom" secondItem="pAT-uI-BC1" secondAttribute="bottom" id="noJ-89-vjV"/>
+                                    <constraint firstAttribute="trailing" secondItem="pAT-uI-BC1" secondAttribute="trailing" id="y6v-MM-tKA"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YAU-3b-Opj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CjF-RG-pBt" firstAttribute="leading" secondItem="MId-Ut-0Bg" secondAttribute="leading" id="4im-15-gpI"/>
+                            <constraint firstAttribute="bottom" secondItem="CjF-RG-pBt" secondAttribute="bottom" id="7p1-q3-PgI"/>
+                            <constraint firstItem="CjF-RG-pBt" firstAttribute="top" secondItem="MId-Ut-0Bg" secondAttribute="top" constant="199" id="Dvq-gD-cYj"/>
+                            <constraint firstAttribute="trailing" secondItem="CjF-RG-pBt" secondAttribute="trailing" id="K9m-3v-CMu"/>
+                            <constraint firstItem="pAT-uI-BC1" firstAttribute="width" secondItem="MId-Ut-0Bg" secondAttribute="width" id="kt0-Em-fGT"/>
+                            <constraint firstItem="pAT-uI-BC1" firstAttribute="height" secondItem="MId-Ut-0Bg" secondAttribute="height" multiplier="1.67411" id="vNM-jM-7Q6"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Hfw-4c-Hox"/>
                 </viewController>
@@ -256,69 +282,68 @@
             <point key="canvasLocation" x="953.62318840579712" y="837.72321428571422"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="ibT-UO-j9X">
+        <scene sceneID="XQU-9K-wkr">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="w7p-3N-AKe" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="4CC-x1-TR9">
+                <viewController modalPresentationStyle="fullScreen" id="uah-o0-LWd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5IC-xT-tEC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images (1)" translatesAutoresizingMaskIntoConstraints="NO" id="YMN-kD-Cjq">
-                                <rect key="frame" x="-181" y="-337" width="776" height="1569"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images (1)" translatesAutoresizingMaskIntoConstraints="NO" id="nq2-wB-bNc">
+                                <rect key="frame" x="-181" y="-336" width="776" height="1569"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dTL-b7-ui2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YF6-no-kjA">
+                                <rect key="frame" x="283" y="117" width="73" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="icons8-home-office-64 (1)"/>
+                                </buttonConfiguration>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Books / Movies / Animes recommendation" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xlL-5f-Yue">
+                                <rect key="frame" x="20" y="44" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vdq-dE-Kfu">
+                                <rect key="frame" x="0.0" y="194" width="414" height="702"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HoR-uu-YOD">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vo2-Mi-nd8">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qcw-RI-N7Y">
-                                                <rect key="frame" x="282" y="116" width="73" height="64"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="">
-                                                    <backgroundConfiguration key="background" image="icons8-home-office-64 (1)"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Books / Movies / Animes recommendation" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dsl-Ok-uiy">
-                                                <rect key="frame" x="34" y="70" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="fCV-vi-a0t"/>
+                                            <constraint firstAttribute="height" constant="1500" id="dbG-lF-ig7"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="HoR-uu-YOD" secondAttribute="bottom" id="DiL-vw-3YA"/>
-                                    <constraint firstAttribute="trailing" secondItem="HoR-uu-YOD" secondAttribute="trailing" id="K2M-Tq-B4w"/>
-                                    <constraint firstItem="HoR-uu-YOD" firstAttribute="top" secondItem="dTL-b7-ui2" secondAttribute="top" id="TlZ-sZ-Rfm"/>
-                                    <constraint firstItem="HoR-uu-YOD" firstAttribute="leading" secondItem="dTL-b7-ui2" secondAttribute="leading" id="Xc1-7H-izP"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vo2-Mi-nd8" secondAttribute="trailing" id="Fyq-aU-E59"/>
+                                    <constraint firstAttribute="bottom" secondItem="Vo2-Mi-nd8" secondAttribute="bottom" id="HCh-cQ-x55"/>
+                                    <constraint firstItem="Vo2-Mi-nd8" firstAttribute="leading" secondItem="Vdq-dE-Kfu" secondAttribute="leading" id="HnX-sc-c5n"/>
+                                    <constraint firstItem="Vo2-Mi-nd8" firstAttribute="top" secondItem="Vdq-dE-Kfu" secondAttribute="top" id="fkB-E3-uuF"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="djV-SE-Apn"/>
+                        <viewLayoutGuide key="safeArea" id="icu-aH-XCc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="dTL-b7-ui2" secondAttribute="bottom" id="6iA-w1-jc0"/>
-                            <constraint firstItem="HoR-uu-YOD" firstAttribute="height" secondItem="4CC-x1-TR9" secondAttribute="height" multiplier="1.67411" id="SRq-Ni-ml6"/>
-                            <constraint firstItem="dTL-b7-ui2" firstAttribute="leading" secondItem="djV-SE-Apn" secondAttribute="leading" id="c5S-h6-qAX"/>
-                            <constraint firstItem="HoR-uu-YOD" firstAttribute="width" secondItem="4CC-x1-TR9" secondAttribute="width" id="dup-a7-06a"/>
-                            <constraint firstItem="dTL-b7-ui2" firstAttribute="trailing" secondItem="djV-SE-Apn" secondAttribute="trailing" id="hwj-AR-uev"/>
-                            <constraint firstItem="dTL-b7-ui2" firstAttribute="top" secondItem="4CC-x1-TR9" secondAttribute="top" id="rZB-Ko-KxC"/>
+                            <constraint firstItem="Vdq-dE-Kfu" firstAttribute="leading" secondItem="5IC-xT-tEC" secondAttribute="leading" id="UIY-Qr-ujc"/>
+                            <constraint firstAttribute="trailing" secondItem="Vdq-dE-Kfu" secondAttribute="trailing" id="Ya1-iX-FaT"/>
+                            <constraint firstItem="Vo2-Mi-nd8" firstAttribute="height" secondItem="5IC-xT-tEC" secondAttribute="height" multiplier="1.67411" id="aVg-th-kGm"/>
+                            <constraint firstItem="Vo2-Mi-nd8" firstAttribute="width" secondItem="5IC-xT-tEC" secondAttribute="width" id="chd-Q2-NcS"/>
+                            <constraint firstAttribute="bottom" secondItem="Vdq-dE-Kfu" secondAttribute="bottom" id="mSc-GC-gZa"/>
+                            <constraint firstItem="Vdq-dE-Kfu" firstAttribute="top" secondItem="5IC-xT-tEC" secondAttribute="top" constant="194" id="tt2-sh-CAp"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Rt9-L6-EeK"/>
+                    <navigationItem key="navigationItem" id="aso-FL-hIm"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qiS-rz-neu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NAd-gt-I7d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1692.753623188406" y="837.72321428571422"/>
+            <point key="canvasLocation" x="1690" y="838"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.36355125999999999" green="0.3705644011" blue="0.34091888520000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
