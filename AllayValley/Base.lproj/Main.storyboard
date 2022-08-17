@@ -20,13 +20,6 @@
                                 <rect key="frame" x="-181" y="-336" width="776" height="1569"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Allay Valley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCw-5q-MNt">
-                                <rect key="frame" x="125" y="99" width="164" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vef-so-Fge">
                                 <rect key="frame" x="218" y="236" width="150" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -97,6 +90,13 @@
                                     <segue destination="BUj-hR-UQv" kind="push" id="8pN-cg-PBa"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Allay Valley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCw-5q-MNt">
+                                <rect key="frame" x="35" y="85" width="269" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -109,24 +109,22 @@
         <!--View Controller-->
         <scene sceneID="hZg-tX-nYN">
             <objects>
-                <viewController id="kYu-zU-rdw" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="kYu-zU-rdw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EBT-eT-Ac0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wyz-YX-Ui0">
-                                <rect key="frame" x="142" y="89" width="63" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images (1)" translatesAutoresizingMaskIntoConstraints="NO" id="dmD-NW-Tmv">
+                                <rect key="frame" x="-181" y="-336" width="776" height="1569"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wyz-YX-Ui0">
+                                <rect key="frame" x="136" y="86" width="143" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfe-62-6hg">
-                                <rect key="frame" x="174" y="188" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0te-yX-464"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -140,18 +138,22 @@
         <!--View Controller-->
         <scene sceneID="Lfy-L4-bQg">
             <objects>
-                <viewController id="BUj-hR-UQv" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BUj-hR-UQv" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vvw-Ku-NeK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music / Sound" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jtD-bj-fvI">
-                                <rect key="frame" x="186" y="79" width="108" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images (1)" translatesAutoresizingMaskIntoConstraints="NO" id="PJD-nq-nvZ">
+                                <rect key="frame" x="-197" y="-336" width="776" height="1569"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Music / sounds" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9hw-g8-Or7">
+                                <rect key="frame" x="34" y="62" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="45"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="g2o-e6-aV2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -160,21 +162,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IlW-Rg-uVi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-551" y="838"/>
+            <point key="canvasLocation" x="-552.17391304347825" y="837.72321428571422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Wi1-MT-DJk">
             <objects>
-                <viewController id="9zu-n9-e5h" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="9zu-n9-e5h" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pp5-zH-JUU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quotes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUw-lP-qIa">
-                                <rect key="frame" x="121" y="82" width="56" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Le7-4R-ZTz">
+                                <rect key="frame" x="-181" y="-336" width="776" height="1569"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quotes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxA-ML-3Ip">
+                                <rect key="frame" x="46" y="82" width="131" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -190,16 +196,20 @@
         <!--View Controller-->
         <scene sceneID="pPw-vC-jb2">
             <objects>
-                <viewController id="lcb-GE-MgU" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="lcb-GE-MgU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MId-Ut-0Bg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZfN-ua-eDu">
-                                <rect key="frame" x="178" y="90" width="54" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images (1)" translatesAutoresizingMaskIntoConstraints="NO" id="n0f-Jb-ARh">
+                                <rect key="frame" x="-183" y="-336" width="776" height="1569"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDQ-Yy-Mza">
+                                <rect key="frame" x="46" y="78" width="130" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -215,27 +225,59 @@
         <!--View Controller-->
         <scene sceneID="IoL-Jd-tQO">
             <objects>
-                <viewController id="egB-yS-vZU" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="egB-yS-vZU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Xc-VN-aMQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Book / Movie / Anime Recommendations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6u-LZ-Hnm">
-                                <rect key="frame" x="66" y="75" width="306" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images (1)" translatesAutoresizingMaskIntoConstraints="NO" id="hn6-GG-YBj">
+                                <rect key="frame" x="-181" y="-336" width="776" height="1569"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zFd-8f-5UO">
+                                <rect key="frame" x="0.0" y="44" width="414" height="150"/>
+                            </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Book / Movie / Anime recommendations" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lqx-Ct-O8b">
+                                <rect key="frame" x="36" y="44" width="240" height="282.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WpO-tm-m3o">
+                                <rect key="frame" x="0.0" y="44" width="414" height="150"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="8L3-V7-sbJ"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rXb-Wm-O3A"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zFd-8f-5UO" firstAttribute="top" secondItem="rXb-Wm-O3A" secondAttribute="top" id="1Ck-0j-qRh"/>
+                            <constraint firstItem="zFd-8f-5UO" firstAttribute="trailing" secondItem="rXb-Wm-O3A" secondAttribute="trailing" id="5Ly-l8-ScJ"/>
+                            <constraint firstAttribute="bottom" secondItem="zFd-8f-5UO" secondAttribute="bottom" id="9BY-tk-s1C"/>
+                            <constraint firstItem="WpO-tm-m3o" firstAttribute="trailing" secondItem="rXb-Wm-O3A" secondAttribute="trailing" id="KcE-R7-ge9"/>
+                            <constraint firstAttribute="bottom" secondItem="WpO-tm-m3o" secondAttribute="bottom" id="Ooc-h7-9ki"/>
+                            <constraint firstItem="WpO-tm-m3o" firstAttribute="leading" secondItem="rXb-Wm-O3A" secondAttribute="leading" id="Q4c-0I-OwX"/>
+                            <constraint firstItem="WpO-tm-m3o" firstAttribute="leading" secondItem="rXb-Wm-O3A" secondAttribute="leading" id="Tda-Al-u4H"/>
+                            <constraint firstItem="WpO-tm-m3o" firstAttribute="trailing" secondItem="rXb-Wm-O3A" secondAttribute="trailing" id="V8u-8j-SyQ"/>
+                            <constraint firstItem="zFd-8f-5UO" firstAttribute="leading" secondItem="rXb-Wm-O3A" secondAttribute="leading" id="WDg-WG-4t9"/>
+                            <constraint firstAttribute="bottom" secondItem="WpO-tm-m3o" secondAttribute="bottom" id="fze-AE-DLN"/>
+                            <constraint firstItem="WpO-tm-m3o" firstAttribute="top" secondItem="rXb-Wm-O3A" secondAttribute="top" id="lef-fQ-eyt"/>
+                            <constraint firstItem="WpO-tm-m3o" firstAttribute="leading" secondItem="rXb-Wm-O3A" secondAttribute="leading" id="rpz-SE-O3W"/>
+                            <constraint firstAttribute="bottom" secondItem="WpO-tm-m3o" secondAttribute="bottom" id="vPN-To-bUA"/>
+                            <constraint firstItem="WpO-tm-m3o" firstAttribute="top" secondItem="rXb-Wm-O3A" secondAttribute="top" id="x8Z-QC-jg6"/>
+                            <constraint firstItem="WpO-tm-m3o" firstAttribute="trailing" secondItem="rXb-Wm-O3A" secondAttribute="trailing" id="xLP-Vj-oBa"/>
+                            <constraint firstItem="WpO-tm-m3o" firstAttribute="top" secondItem="rXb-Wm-O3A" secondAttribute="top" id="ztP-Zc-3N9"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dJM-xe-KF6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="teq-oZ-yl9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1677" y="838"/>
+            <point key="canvasLocation" x="1676.8115942028987" y="837.72321428571422"/>
         </scene>
     </scenes>
     <resources>
