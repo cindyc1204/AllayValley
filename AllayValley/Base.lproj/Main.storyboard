@@ -31,7 +31,7 @@
                                     <fontDescription key="titleFontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="FYn-XH-e7x" kind="show" id="EMI-h0-IK9"/>
+                                    <segue destination="FYn-XH-e7x" kind="show" id="Q2y-ry-VGT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUJ-hn-mQa">
@@ -187,10 +187,10 @@
             </objects>
             <point key="canvasLocation" x="-500.00000000000006" y="837.72321428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Quotes-->
         <scene sceneID="Wi1-MT-DJk">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="9zu-n9-e5h" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="9zu-n9-e5h" customClass="ViewControllerQuotes" customModule="AllayValley" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pp5-zH-JUU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -217,15 +217,40 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQh-2E-ifB">
+                                <rect key="frame" x="74" y="259" width="266" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88150376080000004" green="0.85706997370000004" blue="0.81089483409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Generate a quote!">
+                                    <fontDescription key="titleFontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="20"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="quoteButton:" destination="9zu-n9-e5h" eventType="touchUpInside" id="5r1-vo-EfD"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uUS-iq-yH0">
+                                <rect key="frame" x="87" y="355" width="239" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88150376080000004" green="0.85706997370000004" blue="0.81089483409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1oo-56-5w2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Q54-Fm-n0K"/>
+                    <connections>
+                        <outlet property="quoteText" destination="uUS-iq-yH0" id="Cde-Ws-2ni"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SS1-MR-KGU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="224.63768115942031" y="837.72321428571422"/>
+            <point key="canvasLocation" x="186.95652173913044" y="837.72321428571422"/>
         </scene>
         <!--Twozerofoureight View Controller-->
         <scene sceneID="ngi-hb-cDK">
@@ -479,7 +504,7 @@
         <scene sceneID="XQU-9K-wkr">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="uah-o0-LWd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5IC-xT-tEC">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="5IC-xT-tEC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -505,10 +530,10 @@
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vdq-dE-Kfu">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vdq-dE-Kfu">
                                 <rect key="frame" x="0.0" y="194" width="414" height="1453"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vo2-Mi-nd8">
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vo2-Mi-nd8">
                                         <rect key="frame" x="-8" y="8" width="414" height="1500"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ytn-dG-4Dc">
@@ -632,7 +657,7 @@ Horror:
         <scene sceneID="X6d-3Y-DT7">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="FYn-XH-e7x" customClass="ViewController" customModule="AllayValley" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Yej-da-vx8">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Yej-da-vx8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -658,10 +683,10 @@ Horror:
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ZL-XJ-jd0">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ZL-XJ-jd0">
                                 <rect key="frame" x="0.0" y="194" width="414" height="1453"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BPa-dd-O7q">
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BPa-dd-O7q">
                                         <rect key="frame" x="-8" y="8" width="414" height="1500"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="    Books:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NXP-nH-MDY">
@@ -906,9 +931,8 @@ Horror:
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cYt-b6-skV"/>
-        <segue reference="mVB-Tv-yiY"/>
-        <segue reference="LFc-X9-6Wc"/>
+        <segue reference="GqJ-Nd-weZ"/>
+        <segue reference="LrU-UH-OAo"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.36355125999999999" green="0.3705644011" blue="0.34091888520000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
@@ -924,6 +948,9 @@ Horror:
         <image name="icons8-home-office-64 (1)" width="64" height="64"/>
         <image name="images (1)" width="678" height="818"/>
         <image name="skynews-wordle-new-york-times_5659005" width="2048" height="1152"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
