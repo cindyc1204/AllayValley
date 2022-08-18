@@ -10,6 +10,7 @@
 		5017340128ADD20B0002D0DB /* WordleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017340028ADD20B0002D0DB /* WordleViewController.swift */; };
 		5017340328ADD80E0002D0DB /* twozerofoureightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017340228ADD80E0002D0DB /* twozerofoureightViewController.swift */; };
 		BD5C744C28AE843C003E4561 /* ViewControllerQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C744B28AE843C003E4561 /* ViewControllerQuotes.swift */; };
+		BD5C744E28AE8DC1003E4561 /* SpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C744D28AE8DC1003E4561 /* SpotifyViewController.swift */; };
 		BD5D3C6528AC178F00633206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D3C6428AC178F00633206 /* AppDelegate.swift */; };
 		BD5D3C6728AC178F00633206 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D3C6628AC178F00633206 /* SceneDelegate.swift */; };
 		BD5D3C6928AC178F00633206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D3C6828AC178F00633206 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		5017340028ADD20B0002D0DB /* WordleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleViewController.swift; sourceTree = "<group>"; };
 		5017340228ADD80E0002D0DB /* twozerofoureightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twozerofoureightViewController.swift; sourceTree = "<group>"; };
 		BD5C744B28AE843C003E4561 /* ViewControllerQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerQuotes.swift; sourceTree = "<group>"; };
+		BD5C744D28AE8DC1003E4561 /* SpotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyViewController.swift; sourceTree = "<group>"; };
 		BD5D3C6128AC178F00633206 /* AllayValley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllayValley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5D3C6428AC178F00633206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD5D3C6628AC178F00633206 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				BD5D3C7528AC179100633206 /* Info.plist */,
 				BD5D3C6D28AC178F00633206 /* AllayValley.xcdatamodeld */,
 				BD5C744B28AE843C003E4561 /* ViewControllerQuotes.swift */,
+				BD5C744D28AE8DC1003E4561 /* SpotifyViewController.swift */,
 			);
 			path = AllayValley;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				BD5D3C6F28AC178F00633206 /* AllayValley.xcdatamodeld in Sources */,
 				5017340328ADD80E0002D0DB /* twozerofoureightViewController.swift in Sources */,
 				5017340128ADD20B0002D0DB /* WordleViewController.swift in Sources */,
+				BD5C744E28AE8DC1003E4561 /* SpotifyViewController.swift in Sources */,
 				BD5C744C28AE843C003E4561 /* ViewControllerQuotes.swift in Sources */,
 				BD5D3C6928AC178F00633206 /* ViewController.swift in Sources */,
 				BD5D3C6528AC178F00633206 /* AppDelegate.swift in Sources */,
