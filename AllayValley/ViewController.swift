@@ -62,18 +62,34 @@ class ViewController: UIViewController {
         UIApplication.shared.open(URL(string: "https://www.amazon.com/Pale-Faced-Lie-True-Story/dp/0997487151/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1660845571&sr=1-1-spons")! as URL, options: [:], completionHandler: nil)
     }
     @IBAction func mvAlice(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Alice-Wonderland-Mia-Wasikowska/dp/B0094M30I4/ref=sr_1_1?crid=2RLY3C0G6IIL2&keywords=alice+in+wonderland&qid=1660850411&s=instant-video&sprefix=alice+%2Cinstant-video%2C65&sr=1-1")! as URL, options: [:], completionHandler: nil)
     }
     @IBAction func mvGhost(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Ghostbusters-Bill-Murray/dp/B09KLK9K7D/ref=sr_1_2?crid=1C0AR4CXIF5JD&keywords=ghostbusters&qid=1660850489&s=instant-video&sprefix=ghistb%2Cinstant-video%2C74&sr=1-2")! as URL, options: [:], completionHandler: nil)
     }
     @IBAction func mvCruise(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Jungle-Cruise-Dwayne-Johnson/dp/B09DJSTCJJ/ref=sr_1_1?crid=14K35CK7IM5XW&keywords=jungle+cruise&qid=1660850530&s=instant-video&sprefix=jung%2Cinstant-video%2C78&sr=1-1")! as URL, options: [:], completionHandler: nil)
     }
     @IBAction func mvBeetle(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Beetlejuice-Michael-Keaton/dp/B0091W0ILY/ref=sr_1_1_sspa?crid=8DONJQX70TCI&keywords=beetlejuice&qid=1660850550&s=instant-video&sprefix=bee%2Cinstant-video%2C65&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzQlU5N1ZIUEZNTDhRJmVuY3J5cHRlZElkPUEwNjQ2NTQ4MlNIWDIyWVBLREJXOCZlbmNyeXB0ZWRBZElkPUEwNTU1NTk0MjhDQlZVVkpXSlA1NCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=")! as URL, options: [:], completionHandler: nil)
     }
     @IBAction func mvQuiet(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Quiet-Place-4K-UHD/dp/B07R991LK9/ref=sr_1_1?crid=PL8KID67JK6H&keywords=a+quiet+place&qid=1660850584&s=instant-video&sprefix=a+qu%2Cinstant-video%2C85&sr=1-1")! as URL, options: [:], completionHandler: nil)
     }
     @IBAction func mvMeg(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Meg-Jason-Statham/dp/B07JWDVB8W/ref=sr_1_1_sspa?crid=1F5BG666JEUTO&keywords=the+meg&qid=1660850601&s=instant-video&sprefix=the+me%2Cinstant-video%2C76&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyWVNHV004SDBBUDBKJmVuY3J5cHRlZElkPUExMDE1MDQ2MUY2MEVGRTQ4RU5GVyZlbmNyeXB0ZWRBZElkPUEwNzAwNjA4MkVVSjJPU1RCN1FMJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==")! as URL, options: [:], completionHandler: nil)
     }
     @IBAction func mvIt(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Jaeden-Lieberher/dp/B0756VMDV5/ref=sr_1_2?crid=2OTCIMT8OP22B&keywords=it&qid=1660850624&s=instant-video&sprefix=it%2Cinstant-video%2C73&sr=1-2")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvWitches(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Roald-Dahls-Witches-Anne-Hathaway/dp/B09KKPKH1W/ref=sr_1_2_sspa?crid=1TGEYR6G0ET3O&keywords=horror+movies&qid=1660850650&s=instant-video&sprefix=ho%2Cinstant-video%2C92&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExQ1QzOTJEN0pPWVlIJmVuY3J5cHRlZElkPUEwMDcyMjI0MUlGQ1A0WllaRzZHUSZlbmNyeXB0ZWRBZElkPUEwMjEzMDYwMzdBNDE0VTQ5Qk1aRiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvUs(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Us-4K-UHD-Lupita-Nyongo/dp/B08F9Y61S8/ref=sr_1_7?crid=1TGEYR6G0ET3O&keywords=horror+movies&qid=1660850859&s=instant-video&sprefix=ho%2Cinstant-video%2C92&sr=1-7")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvLine(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Horizon-Line-Allison-Williams/dp/B08QGHKG7G/ref=sr_1_10?crid=1TGEYR6G0ET3O&keywords=horror+movies&qid=1660850859&s=instant-video&sprefix=ho%2Cinstant-video%2C92&sr=1-10")! as URL, options: [:], completionHandler: nil)
     }
     
     
