@@ -14,6 +14,8 @@
 		503BB35A28AEC6A40030714A /* MinesweeperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503BB35928AEC6A40030714A /* MinesweeperViewController.swift */; };
 		503BB35C28AECB890030714A /* CubeFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503BB35B28AECB890030714A /* CubeFormViewController.swift */; };
 		503BB35E28AECC490030714A /* CarParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503BB35D28AECC490030714A /* CarParkViewController.swift */; };
+		503BB36028AEDE560030714A /* RiseHigherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503BB35F28AEDE560030714A /* RiseHigherViewController.swift */; };
+		503BB36228AEDEEB0030714A /* EscapeFromAztecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503BB36128AEDEEB0030714A /* EscapeFromAztecViewController.swift */; };
 		BD5C744C28AE843C003E4561 /* ViewControllerQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C744B28AE843C003E4561 /* ViewControllerQuotes.swift */; };
 		BD5C744E28AE8DC1003E4561 /* SpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C744D28AE8DC1003E4561 /* SpotifyViewController.swift */; };
 		BD5D3C6528AC178F00633206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D3C6428AC178F00633206 /* AppDelegate.swift */; };
@@ -33,6 +35,8 @@
 		503BB35928AEC6A40030714A /* MinesweeperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinesweeperViewController.swift; sourceTree = "<group>"; };
 		503BB35B28AECB890030714A /* CubeFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeFormViewController.swift; sourceTree = "<group>"; };
 		503BB35D28AECC490030714A /* CarParkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarParkViewController.swift; sourceTree = "<group>"; };
+		503BB35F28AEDE560030714A /* RiseHigherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiseHigherViewController.swift; sourceTree = "<group>"; };
+		503BB36128AEDEEB0030714A /* EscapeFromAztecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeFromAztecViewController.swift; sourceTree = "<group>"; };
 		BD5C744B28AE843C003E4561 /* ViewControllerQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerQuotes.swift; sourceTree = "<group>"; };
 		BD5C744D28AE8DC1003E4561 /* SpotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyViewController.swift; sourceTree = "<group>"; };
 		BD5D3C6128AC178F00633206 /* AllayValley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllayValley.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +87,8 @@
 				5017340028ADD20B0002D0DB /* WordleViewController.swift */,
 				503BB35528AEC4510030714A /* CookieClickerViewController.swift */,
 				BD5D3C6A28AC178F00633206 /* Main.storyboard */,
+				503BB36128AEDEEB0030714A /* EscapeFromAztecViewController.swift */,
+				503BB35F28AEDE560030714A /* RiseHigherViewController.swift */,
 				503BB35D28AECC490030714A /* CarParkViewController.swift */,
 				503BB35B28AECB890030714A /* CubeFormViewController.swift */,
 				503BB35928AEC6A40030714A /* MinesweeperViewController.swift */,
@@ -172,6 +178,8 @@
 				503BB35E28AECC490030714A /* CarParkViewController.swift in Sources */,
 				503BB35C28AECB890030714A /* CubeFormViewController.swift in Sources */,
 				5017340328ADD80E0002D0DB /* twozerofoureightViewController.swift in Sources */,
+				503BB36228AEDEEB0030714A /* EscapeFromAztecViewController.swift in Sources */,
+				503BB36028AEDE560030714A /* RiseHigherViewController.swift in Sources */,
 				5017340128ADD20B0002D0DB /* WordleViewController.swift in Sources */,
 				BD5C744E28AE8DC1003E4561 /* SpotifyViewController.swift in Sources */,
 				503BB35628AEC4510030714A /* CookieClickerViewController.swift in Sources */,

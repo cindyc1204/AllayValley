@@ -91,6 +91,96 @@ class ViewController: UIViewController {
     @IBAction func mvLine(_ sender: UIButton) {
         UIApplication.shared.open(URL(string: "https://www.amazon.com/Horizon-Line-Allison-Williams/dp/B08QGHKG7G/ref=sr_1_10?crid=1TGEYR6G0ET3O&keywords=horror+movies&qid=1660850859&s=instant-video&sprefix=ho%2Cinstant-video%2C92&sr=1-10")! as URL, options: [:], completionHandler: nil)
     }
+    @IBAction func mvMoana(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Moana-Theatrical-Version-Aulii-Cravalho/dp/B01N78MXNT/ref=sr_1_5?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660851589&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-5")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvEncanto(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Encanto-Stephanie-Beatriz/dp/B09NXMP656/ref=sr_1_4?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660852243&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-4")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvFrozen(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Frozen-4K-UHD-Kristen-Bell/dp/B07YF3X4XH/ref=sr_1_9?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660852243&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-9")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvCars(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Cars-Owen-Wilson/dp/B005ZMUQCK/ref=sr_1_8?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660852243&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-8")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvCinderella(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Cinderella-4K-UHD-Cate-Blanchett/dp/B07T762GC9/ref=sr_1_7?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660852243&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-7")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvNemo(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Finding-Nemo-Albert-Brooks/dp/B00AHSGNJM/ref=sr_1_12?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660852243&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-12")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvlightyear(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Lightyear-Chris-Evans/dp/B0B5PRNXZM/ref=sr_1_10?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660852243&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-10")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvMonsters(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Monsters-Inc-John-Goodman/dp/B00BHUB11Y/ref=sr_1_13?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660852243&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-13")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvTangled(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Tangled-4K-UHD-Mandy-Moore/dp/B07ZWH6Y8N/ref=sr_1_19?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660852980&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-19")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvLittleMermaid(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Little-Mermaid-4K-UHD/dp/B07NGXW76D/ref=sr_1_18?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660852980&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-18")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvZootopia(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Zootopia-Theatrical-Ginnifer-Goodwin/dp/B01CIV3XCU/ref=sr_1_20?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660852980&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-20")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvCoco(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Coco-Theatrical-Version-Anthony-Gonzalez/dp/B0779FPB6Q/ref=sr_1_22?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660852980&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-22")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvIncredibles(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Incredibles-Craig-Nelson/dp/B0094KT5BW/ref=sr_1_36?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660853298&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-36")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvWalle(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/WALL-4K-UHD-Ben-Burtt/dp/B084YZ7575/ref=sr_1_41?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660853298&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-41")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvUp(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Up-Ed-Asner/dp/B0094KTA4Y/ref=sr_1_50?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660853628&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-50")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvBrave(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Brave-Kelly-MacDonald/dp/B00A6PD9I4/ref=sr_1_54?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660853628&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-54")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvPrincessD(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Princess-Diaries-Anne-Hathaway/dp/B00HMD8QYA/ref=sr_1_55?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660853628&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-55")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func mvMal(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Maleficent-Theatrical-Angelina-Jolie/dp/B00P7PK6JS/ref=sr_1_62?crid=L4WJ5YE0QEGL&keywords=disney+movies&qid=1660853628&s=instant-video&sprefix=disne+movies%2Cinstant-video%2C52&sr=1-62")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func anDemon(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.netflix.com/title/81091393")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func anHunter(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.crunchyroll.com/hunter-x-hunter")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func anDogs(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.crunchyroll.com/bungo-stray-dogs")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func anJ(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.crunchyroll.com/jujutsu-kaisen")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func anCaseClosed(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.crunchyroll.com/case-closed-detective-conan")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func anOne(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.crunchyroll.com/one-piece")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func manChained(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Chained-Soldier-Vol/dp/1975346084/ref=sxin_14_pa_sp_search_thematic_sspa?content-id=amzn1.sym.bf9ab26e-8cc3-46ed-9845-69cc0fbbb425%3Aamzn1.sym.bf9ab26e-8cc3-46ed-9845-69cc0fbbb425&crid=KQM6IRAZVZUY&cv_ct_cx=manga&keywords=manga&pd_rd_i=1975346084&pd_rd_r=e3dbced8-e36a-489f-aa72-2c037bf73171&pd_rd_w=cQbYn&pd_rd_wg=qWofU&pf_rd_p=bf9ab26e-8cc3-46ed-9845-69cc0fbbb425&pf_rd_r=F6A9B3GDB3BZ97F3RVQ6&qid=1660855097&s=books&sprefix=manga%2Cstripbooks%2C84&sr=1-2-889283d3-4d36-4ddb-a279-ec115df7f053-spons&psc=1")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func manKem(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Kemono-Jihen-Vol-Sho-Aimoto/dp/1638585393/ref=sr_1_7?crid=KQM6IRAZVZUY&keywords=manga&qid=1660855200&s=books&sprefix=manga%2Cstripbooks%2C84&sr=1-7")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func manToilet(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Toilet-bound-Hanako-kun-Vol/dp/1975332873/ref=sr_1_24?crid=KQM6IRAZVZUY&keywords=manga&qid=1660855200&s=books&sprefix=manga%2Cstripbooks%2C84&sr=1-24")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func manBlue(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Blue-Box-Vol-1/dp/1974734625/ref=sr_1_30_sspa?crid=KQM6IRAZVZUY&keywords=manga&qid=1660855200&s=books&sprefix=manga%2Cstripbooks%2C84&sr=1-30-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySkhRUzlaSldXTFNVJmVuY3J5cHRlZElkPUEwMzA4MzUwNEgxUlI1S1BBUDFPJmVuY3J5cHRlZEFkSWQ9QTA1MDM2NDhJR0VERVZUQ1Y1U0Umd2lkZ2V0TmFtZT1zcF9idGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func manLagoon(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Black-Lagoon-Vol-Rei-Hiroe/dp/142151382X/ref=d_pd_sbs_sccl_3_2/143-2328288-5005034?pd_rd_w=dPSDC&content-id=amzn1.sym.52496815-75d1-441b-a973-439c7b1bea7c&pf_rd_p=52496815-75d1-441b-a973-439c7b1bea7c&pf_rd_r=QY2KM8164V99CD4EEK85&pd_rd_wg=WbwGg&pd_rd_r=a00d2f14-f95a-4f41-b844-1ee6488522ea&pd_rd_i=142151382X&psc=1")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func manHusband(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.amazon.com/Way-Househusband-Vol-Kousuke-Oono/dp/197470940X/ref=d_pd_sbs_sccl_2_5/143-2328288-5005034?pd_rd_w=MZDBk&content-id=amzn1.sym.52496815-75d1-441b-a973-439c7b1bea7c&pf_rd_p=52496815-75d1-441b-a973-439c7b1bea7c&pf_rd_r=ZKCTAS8X8AKT93QKG220&pd_rd_wg=GA65F&pd_rd_r=c6b10ff1-2171-4fbc-a6f5-73b279131449&pd_rd_i=197470940X&psc=1")! as URL, options: [:], completionHandler: nil)
+    }
     
     
     
