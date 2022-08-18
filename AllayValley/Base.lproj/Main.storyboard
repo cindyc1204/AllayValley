@@ -133,6 +133,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="">
                                     <backgroundConfiguration key="background" image="icons8-home-office-64 (1)"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="QUy-Gf-W2U"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0te-yX-464"/>
@@ -163,6 +166,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="">
                                     <backgroundConfiguration key="background" image="icons8-home-office-64 (1)"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Teb-Hr-vXc"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Music / sounds" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9hw-g8-Or7">
                                 <rect key="frame" x="92" y="67" width="199" height="140"/>
@@ -200,6 +206,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="">
                                     <backgroundConfiguration key="background" image="icons8-home-office-64 (1)"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="LrU-UH-OAo"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quotes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxA-ML-3Ip">
                                 <rect key="frame" x="53" y="88" width="131" height="54"/>
@@ -237,6 +246,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="">
                                     <backgroundConfiguration key="background" image="icons8-home-office-64 (1)"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="L0B-wa-A0u"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDQ-Yy-Mza">
                                 <rect key="frame" x="46" y="88" width="130" height="54"/>
@@ -285,7 +297,7 @@
         <scene sceneID="XQU-9K-wkr">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="uah-o0-LWd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="5IC-xT-tEC">
+                    <view key="view" contentMode="scaleToFill" id="5IC-xT-tEC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -300,6 +312,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="">
                                     <backgroundConfiguration key="background" image="icons8-home-office-64 (1)"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="1aD-ks-fij"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Books / Movies / Animes recommendation" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xlL-5f-Yue">
                                 <rect key="frame" x="20" y="44" width="240" height="128"/>
@@ -308,10 +323,10 @@
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vdq-dE-Kfu">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vdq-dE-Kfu">
                                 <rect key="frame" x="0.0" y="194" width="414" height="1453"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vo2-Mi-nd8">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vo2-Mi-nd8">
                                         <rect key="frame" x="-8" y="8" width="414" height="1500"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ytn-dG-4Dc">
@@ -435,7 +450,7 @@ Horror:
         <scene sceneID="X6d-3Y-DT7">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="FYn-XH-e7x" customClass="ViewController" customModule="AllayValley" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Yej-da-vx8">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Yej-da-vx8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -450,6 +465,9 @@ Horror:
                                 <buttonConfiguration key="configuration" style="plain" title="">
                                     <backgroundConfiguration key="background" image="icons8-home-office-64 (1)"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="LFc-X9-6Wc"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Books / Movies / Animes recommendation" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gwa-0v-78P">
                                 <rect key="frame" x="20" y="44" width="240" height="128"/>
@@ -458,10 +476,10 @@ Horror:
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ZL-XJ-jd0">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ZL-XJ-jd0">
                                 <rect key="frame" x="0.0" y="194" width="414" height="1453"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BPa-dd-O7q">
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BPa-dd-O7q">
                                         <rect key="frame" x="-8" y="8" width="414" height="1500"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="    Books:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NXP-nH-MDY">
@@ -517,17 +535,18 @@ Horror:
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="bksPercyJackson:" destination="FYn-XH-e7x" eventType="touchUpInside" id="7Jz-gv-4I3"/>
+                                                    <action selector="bksSeabiscuit:" destination="FYn-XH-e7x" eventType="touchUpInside" id="ESM-D4-I4i"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rick Riordan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnL-lm-oaC">
-                                                <rect key="frame" x="19" y="824" width="95" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Laura Hillenbrand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnL-lm-oaC">
+                                                <rect key="frame" x="19" y="835" width="134" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-17 at 8.34.34 PM" translatesAutoresizingMaskIntoConstraints="NO" id="f33-Yk-4v2">
-                                                <rect key="frame" x="19" y="596" width="185" height="204"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-17 at 9.07.29 PM" translatesAutoresizingMaskIntoConstraints="NO" id="f33-Yk-4v2">
+                                                <rect key="frame" x="19" y="596" width="185" height="196"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bd-CY-nEs">
@@ -554,11 +573,12 @@ Horror:
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="bksHungerGames:" destination="FYn-XH-e7x" eventType="touchUpInside" id="QFo-QS-IOO"/>
                                                     <action selector="bksPercyJackson:" destination="FYn-XH-e7x" eventType="touchUpInside" id="Vef-yF-Icm"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rick Riordan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oj3-YF-ySm">
-                                                <rect key="frame" x="230" y="553" width="95" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Suzanne Collins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oj3-YF-ySm">
+                                                <rect key="frame" x="230" y="553" width="121" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -574,11 +594,12 @@ Horror:
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="bksBriefHistory:" destination="FYn-XH-e7x" eventType="touchUpInside" id="cGc-JR-boA"/>
                                                     <action selector="bksPercyJackson:" destination="FYn-XH-e7x" eventType="touchUpInside" id="D8U-0Y-dgu"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rick Riordan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5j-Rw-N2A">
-                                                <rect key="frame" x="230" y="824" width="95" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stephen Hawking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5j-Rw-N2A">
+                                                <rect key="frame" x="230" y="831" width="134" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -602,15 +623,15 @@ Horror:
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Percy Jackson Series" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9x-io-Onl">
-                                                <rect key="frame" x="19" y="805" width="174" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seabiscuit: An American Legend" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9x-io-Onl">
+                                                <rect key="frame" x="19" y="791" width="174" height="48"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Percy Jackson Series" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJq-DH-x0e">
-                                                <rect key="frame" x="230" y="532" width="174" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hunger Games Series" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJq-DH-x0e">
+                                                <rect key="frame" x="230" y="532" width="177" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -649,20 +670,20 @@ Horror:
                                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-17 at 8.34.34 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Qt9-pZ-XLJ">
-                                                <rect key="frame" x="225" y="596" width="185" height="204"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-17 at 9.11.26 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Qt9-pZ-XLJ">
+                                                <rect key="frame" x="225" y="596" width="185" height="196"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-17 at 8.57.29 PM" translatesAutoresizingMaskIntoConstraints="NO" id="bMi-cJ-JPf">
                                                 <rect key="frame" x="19" y="327" width="185" height="197"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-17 at 8.34.34 PM" translatesAutoresizingMaskIntoConstraints="NO" id="tsf-pw-rXR">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-17 at 9.04.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="tsf-pw-rXR">
                                                 <rect key="frame" x="225" y="327" width="185" height="204"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Percy Jackson Series" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VE2-4B-5ht">
-                                                <rect key="frame" x="230" y="804" width="174" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A Brief History of Time" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VE2-4B-5ht">
+                                                <rect key="frame" x="230" y="787" width="177" height="52"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -702,11 +723,17 @@ Horror:
             <point key="canvasLocation" x="2407.2463768115945" y="1089.1741071428571"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="L0B-wa-A0u"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.36355125999999999" green="0.3705644011" blue="0.34091888520000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
         <image name="Screen Shot 2022-08-17 at 8.34.34 PM" width="630" height="792"/>
         <image name="Screen Shot 2022-08-17 at 8.47.09 PM" width="1060" height="1042"/>
         <image name="Screen Shot 2022-08-17 at 8.57.29 PM" width="700" height="1060"/>
+        <image name="Screen Shot 2022-08-17 at 9.04.51 PM" width="686" height="1036"/>
+        <image name="Screen Shot 2022-08-17 at 9.07.29 PM" width="708" height="1060"/>
+        <image name="Screen Shot 2022-08-17 at 9.11.26 PM" width="710" height="1056"/>
         <image name="icons8-home-office-64 (1)" width="64" height="64"/>
         <image name="images (1)" width="678" height="818"/>
         <systemColor name="systemBackgroundColor">
