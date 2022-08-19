@@ -446,6 +446,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="X"/>
+                                <connections>
+                                    <segue destination="6Lu-Te-ptH" kind="show" id="yBk-H0-g5Q"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Sop-lS-B2r"/>
@@ -478,6 +481,9 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6Lu-Te-ptH" kind="show" id="hQS-jd-8VK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zIV-2W-ZKa"/>
@@ -493,7 +499,7 @@
         <scene sceneID="vjW-Q8-oZd">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="6Lu-Te-ptH" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eGD-3l-1bc">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="eGD-3l-1bc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -519,10 +525,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="L0B-wa-A0u"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tbl-fh-JOD">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tbl-fh-JOD">
                                 <rect key="frame" x="0.0" y="193" width="414" height="703"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cPi-UY-iTy">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cPi-UY-iTy">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AdJ-AS-mPg">
@@ -811,7 +817,7 @@
         <scene sceneID="O0U-WE-IIg">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="Cvd-Nf-WvA" customClass="ViewController" customModule="AllayValley" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Net-M3-63O">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Net-M3-63O">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -837,10 +843,10 @@
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdf-ap-WbX">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bdf-ap-WbX">
                                 <rect key="frame" x="0.0" y="193" width="414" height="703"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b9S-WQ-ajV">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b9S-WQ-ajV">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="8000"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="    Books:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NXP-nH-MDY">
@@ -2782,6 +2788,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="yBk-H0-g5Q"/>
         <segue reference="L0B-wa-A0u"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.36355125999999999" green="0.3705644011" blue="0.34091888520000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
